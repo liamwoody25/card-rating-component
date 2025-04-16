@@ -1,5 +1,5 @@
-const btnRating = document.getElementsByClassName('rating-buttons');
+const btnRating = document.querySelector('.btn-rating')
 
 btnRating.addEventListener('click', function(){
-    console.log('click the rating button')
+    if () {}
 })
