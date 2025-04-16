@@ -1,0 +1,66 @@
+/* base components */
+
+.rating-btn {
+    padding: 16px 24px 16px 24px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    width: 51px;
+    font-size: 16px;
+    color: #969FAD;
+    background-color: #262E38;
+    border-radius:25.5px;
+}
+
+.rating-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+* {
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+p {
+    color: #969FAD;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/**** base body ****/
+
+.wrapper {
+    margin-top: 192px;
+    margin-bottom: 192px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262E38;
+}
+
+.rating-card {
+   
+    border-radius: 30px;
+    background: #232A34 radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    width: 35%;
+}
+
+.rating-content {
+    padding: 114.5px 30px 35px 30px;
+}
